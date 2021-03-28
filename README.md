@@ -23,7 +23,7 @@ This is an information site against covid
 1) Make sure you have a text editor
 2) Open your folder in your editor
 3) Open in your browser
-4) 
+
 ![image](https://user-images.githubusercontent.com/70349830/112741210-e8786e00-8f59-11eb-9685-e1f1a5054519.png)
 
 
