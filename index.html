@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/dont-img.png" type="image/icon type">
     <title>Covid 19</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-
+     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header>
 
-        <a href="#" class="logo">c<span class="fas fa-virus"></span>ovid-19</a>
+        <a href="#" class="logo">c<span class="fas fa-virus"></span>vid-19</a>
 
         <div id="menu" class="fas fa-bars"></div>
 
@@ -22,9 +23,8 @@
                 <li><a href="#protect">Proteção</a></li>
                 <li><a href="#symtoms">Sintomas</a></li>
                 <li><a href="#prevent">Prevenção</a></li>
-                <li><a href="#handwash">Como lavar as mãos</a></li>
-                <li><a href="#spread">Contaminação</a></li>
-            </ul>
+                <li><a href="#handwash">Engiene</a></li>    
+             </ul>
         </nav>
 
     </header>
@@ -32,42 +32,85 @@
 
 <section class="home" id="home">
 
-    <div class="content">
+    <div class="content" data-event="left">
 
         <span>Covid-19</span>
-        <h3>Fique seguro, se possivel fique em casa</h3>
+        <h3>Fique seguro, se possivel fique em casa<i class="fas fa-home"></i></h3>
         <p>Ficar em casa, no atual contexto de enfrentamento ao Coronavírus, é mais do que um ato de segurança, é um gesto de carinho com você mesmo e com todas as pessoas.</p>
         <a href="#" class="btn">Saber mais</a>
 
     </div>
 
-    <div class="image">
+    <div class="image" data-event="left">
         <img src="images/home-img.png" alt="">
      </div>
+
+
+<div class="informations" id="casos" data-event="left">
+
+    <h1 class="heading" style="text-align: center;font-weight: 300;color:#fff;padding: 15px 0;">Informações de <span>casos </span> ao redor do mundo</h1>
+
+    <div class="pesquisa">
+        
+      <div class="input">
+          <label>Pais:<span id="country"></span></label> <img src="" id="flag">
+          <select onchange="val()">
+             <option selected="">Brazil</option>
+          </select>
+      </div>  
+
+    </div>
+  
+     <div class="board">
+            <div class="card a">
+               <h3 class="number_list">População:<span id="population"></span></h3>
+            </div>
+
+            <div class="card d">
+                <h3 class="number_list">Casos por milhão:<span id="cases_por_milhao"></span></h3>
+            </div>
+
+             <div class="card r">
+                <h3 class="number_list">Total curados:<span id="recovered"></span></h3>
+            </div>
+            <div class="card t">
+                <h3 class="number_list">Ativos:<span id="active"></span></h3>
+            </div>
+           
+            <div class="card ca">
+                <h3 class="number_list">Total de casos:<span id="cases"></span></h3>
+             </div>
+            <div class="card cr">
+               <h3 class="number_list">Total de mortes:<span id="death"></span></h3>
+            </div>
+     </div>            
+
+</div><!--informations-->
+
 
 </section>
 
 <section class="protect" id="protect">
 
-    <h1 class="heading">Siga os passos para<span> protejer</span> você mesmo</h1>
+    <h1 class="heading"><i class="fas fa-exclamation-triangle"></i>Siga os passos para<span> protejer</span> você mesmo</h1>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" data-event="left">
             <img src="images/protect-1.png" alt="">
-            <h3>Uso mascaras</h3>
+            <h3>Use máscaras</h3>
             <p>As máscaras funcionam como uma barreira física para a liberação dessas gotículas no ar quando há tosse, espirros e até mesmo durante conversas. Seu uso é importante principalmente em locais em que não é possível manter uma distância mínima de segurança.</p>
             <a href="#" class="btn">Aprender mais</a>
         </div>
 
-        <div class="box">
+        <div class="box" data-event="left">
             <img src="images/protect-2.png" alt="">
             <h3>Lavar as mãos</h3>
             <p>A higienização das mãos tem um papel essencial, já que é uma das melhores maneiras evitar a transmissão da covid-19. Apesar de ser um hábito simples e comum do cotidiano, exige uma técnica adequada e algumas precauções para que possa ser eficaz na prevenção de doenças.</p>
             <a href="#" class="btn">Aprender mais</a>
         </div>
 
-        <div class="box">
+        <div class="box" data-event="left">
             <img src="images/protect-3.png" alt="">
             <h3>Distânciamento social</h3>
             <p>O distanciamento social não é apenas uma forma de se proteger, mas de proteger as outras pessoas também. Assim com cada um fazendo a sua parte, podemos vencer essa batalha contra o vírus, então se possivel fique a 2 metros de distância e utilizando a mascara, para a sua segurança e de todos.</p>
@@ -82,8 +125,8 @@
 
 <section class="symtoms" id="symtoms">
 
-    <div class="content">
-        <h1 class="heading">Quais são os principais <span>sintomas?</span></h1>
+    <div class="content" data-event="left">
+        <h1 class="heading" style="color: #fff;">Quais são os principais <span>sintomas?</span></h1>
         <p>Aqui estão alguns dos sintomas para que fique alerta se caso estiver com alguns da lista abaixo:</p>
         <ul>
             <div class="one">
@@ -93,14 +136,14 @@
             </div>
             <div class="two">
                 <li>Dor de garganta</li>            
-                <li>Dores</li>
+                <li>Falta de paladar</li>
                 <li>Falta de ar</li>
             </div>
         </ul>
         <a href="#" class="btn">Saber mais</a>
     </div>
 
-    <div class="image">
+    <div class="image" data-event="right">
         <img src="images/symptoms-img.png" alt="">
     </div>
 
@@ -110,12 +153,12 @@
 
     <div class="row">
 
-        <div class="image">
+        <div class="image" data-event="left">
             <img src="images/dont-img.png" alt="">
         </div>
 
-        <div class="content">
-            <h1 class="heading">O que <span>não fazer</span> durante a pandemia</h1>
+        <div class="content" data-event="right">
+            <h1 class="heading"><i class="fas fa-times"></i>O que <span>não fazer</span> durante a pandemia</h1>
             <p>Para evitar a proliferação do vírus, aqui vai algumas dicas do que não pode se fazer</p>
             <ul>
                 <li>Não compartilhar pratos</li>
@@ -128,8 +171,8 @@
 
     <div class="row">
 
-        <div class="content">
-            <h1 class="heading">Coisas para<span> fazer</span> durante a pandemia</h1>
+        <div class="content" data-event="left">
+            <h1 class="heading"><i class="fas fa-check"></i>Coisas para<span> fazer</span> durante a pandemia</h1>
             <p>Seguir as recomendações médicas é a melhor forma de conter o vírus, aqui a baixo esta listado algumas dessas recomendações</p>
             <ul>
                 <li>Lavar aos mãos em 20 segundos</li>
@@ -139,7 +182,7 @@
             </ul>
         </div>
 
-        <div class="image">
+        <div class="image" data-event="right">
             <img src="images/do-img.png" alt="">
         </div>
 
@@ -149,11 +192,11 @@
 
 <section class="handwash" id="handwash">
 
-    <h1 class="heading">Conmo <span>lavar as mãos </span>corretamente</h1>
+    <h1 class="heading"><i class="fas fa-check"></i>Como <span>lavar as mãos </span>corretamente</h1>
 
-    <div class="box-container">
+    <div class="box-container" data-event="left">
 
-        <div class="box">
+        <div class="box" >
             <span>1</span>
             <img src="images/hadnwash-1.png" alt="">
             <h3>Aplicar sabonete</h3>
@@ -193,32 +236,21 @@
 
 </section>
 
+<section class="spread" id="spread" data-event="right">
 
-<section class="spread" id="spread">
-
-    <h1 class="heading">Conmo Covid-19 <span>espalha</span> pelo o mundo</h1>
+    <h1 class="heading"><i class="fas fa-handshake"></i>Juntos <span>venceremos</span> essa batalha</h1>
 
     <div class="image"></div>
 
 </section>
 
-<section class="footer">
+<section class="footer" id="contatos">
 
-    <div class="box-container">
-
-        <div class="box">
-            <h3>Sobre nós</h3>
-            <p>Esse site foi feito no intuito de informar melhores maneiras de evitar a proliferação do vírus</p>
-        </div>
+    <div class="box-container" data-event="left">
 
         <div class="box">
-            <h3>Paises</h3>
-            <a href="#">Brasil</a>
-            <a href="#">Itália</a>
-            <a href="#">USA</a>
-            <a href="#">França</a>
-            <a href="#">Espanha</a>
-            <a href="#">Africa</a>          
+            <h3>Sobre</h3>
+            <p>Buscamos informar a população sobre os riscos à saúde apresentados pela COVID-19 é tão importante quanto outras medidas de proteção. Informações precisas e confiáveis permitem que pessoas tomem decisões conscientes e adotem comportamentos positivos para proteger a si e seus entes queridos de doenças como a causada pelo novo coronavírus. </p>
         </div>
 
         <div class="box">
@@ -227,8 +259,8 @@
             <a href="#">Proteção</a>
             <a href="#">Sintomas</a>
             <a href="#">Prevenção</a>
-            <a href="#">Lavar as mãos</a>
-            <a href="#">Contaminação</a>
+            <a href="#">Lavar mãos</a>
+            <a href="#">Casos</a>
         </div>
 
         <div class="box">
@@ -237,46 +269,34 @@
             <p> <i class="fas fa-envelope"></i>marlondener01@gmail.com </p>
             <p> <i class="fas fa-map-marker-alt"></i> Embu-Guaçu, SP</p>
             <div class="share">
-                <a href="#" class="fab fa-youtube"></a>
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/marlon-dener-672546158/" class="fab fa-linkedin" target="_blank"></a>
+                <a href="https://www.facebook.com/marlon.dener.9" class="fab fa-facebook-f" target="_blank"></a>
+                <a href="https://github.com/MarlonDener" class="fab fa-github" target="_blank"></a>
+                <a href="https://wa.me/5511972443359" class="fab fa-whatsapp" target="_blank"></a>
             </div>
         </div>
 
     </div>
 
-    <h1 class="credit">Criado por<a href="#"> Marlon Dener, </a> todos os direitos reservados! </h1>
+    <h1 style="font-weight: 300" class="credit">Criado por:
+
+        <a href="https://github.com/MarlonDener"> Marlon Dener </a>
+
+        <br><br>Únidos venceremos <br><br>Todos os diretos reservados &copy; </h1>
 
 </section>
-
-<!-- footer section ends -->
-
-<!-- scroll top  -->
 
 <a href="#home" class="scroll-top">
     <img src="images/scroll-img.png" alt="">
 </a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script src="js/OpenAnimation.js"></script>
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <script src="js/api.js"></script>
 
 
 </body>
