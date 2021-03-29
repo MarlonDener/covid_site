@@ -669,6 +669,10 @@ img#flag{
 
 @media (max-width:768px){
 
+ section.symtoms .image{
+    margin-top: 40px;
+ }   
+
 .spread .heading{
     border:none;
 }
