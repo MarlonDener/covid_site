@@ -363,7 +363,9 @@ header .navbar ul li a:hover{
 
     min-height: auto;
     padding-top: 0;
+    box-shadow: 4px 2px 3px 4px rgba(0,0,0,0.9);
     background:#0a0924;
+    margin-top: 9px;
 }
 
 .footer .box-container{
@@ -394,6 +396,12 @@ header .navbar ul li a:hover{
 .footer .box-container .box p i{
     padding-right: 1rem;
     color:var(--red);
+}
+.footer .copy{
+    color: #ccc;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 10px;
 }
 
 .footer .box-container .box a{
