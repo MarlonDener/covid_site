@@ -267,7 +267,7 @@ header .navbar ul li a:hover{
 }
 
 .prevent .row .content{
-    padding:2rem 0;
+    padding:0.4rem 0;
     flex:1 1 37rem;
 }
 
@@ -670,7 +670,7 @@ img#flag{
 @media (max-width:768px){
 
  section.symtoms .image{
-    margin-top: 40px;
+    margin: 20px 0;
  }   
 
 .spread .heading{
@@ -730,7 +730,11 @@ img#flag{
         transform: rotate(180deg);
     }
 
-    header .navbar.nav-toggle{
+    .content .fa-times{
+        position: relative;
+        top: 3px;
+    }
+     header .navbar.nav-toggle{
         left:0;
     }
 
