@@ -18,7 +18,7 @@ This is an information site against covid
   
 </table>
 
-<h3>How to run the application: </h3>
+<h3>How to run the application:  </h3>
 
 1) Make sure you have a text editor
 2) Open your folder in your editor
