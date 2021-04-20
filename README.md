@@ -1,6 +1,6 @@
 <h1>Pandemic</h1>
 
-This is an information site against covid
+This is an information site against covid, using API about Pandemic.
 
 <h3>Technology used:</h3>
 <table>
@@ -24,7 +24,7 @@ This is an information site against covid
 2) Open your folder in your editor
 3) Open in your browser
 
-![image](https://user-images.githubusercontent.com/70349830/112741210-e8786e00-8f59-11eb-9685-e1f1a5054519.png)
+![image](https://user-images.githubusercontent.com/70349830/115424495-24a79300-a1d5-11eb-8d90-496f705fdbf6.png)
 
 
 Thank you so much!
