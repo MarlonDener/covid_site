@@ -5,6 +5,7 @@
 <br>
 <h3>Clique  <a href="https://marlondener.github.io/covid_site/">aqui</a>, para ver a aplicação</h3>
 <br>
+<h3>Tecnologias utilizadas:</h3>
 <table>
   <tr>
     <td>HTML</td>
@@ -19,8 +20,4 @@
 
 ![image](https://user-images.githubusercontent.com/70349830/115424495-24a79300-a1d5-11eb-8d90-496f705fdbf6.png)
 
-<h3>Tecnologias utilizadas:</h3>
-
-
-                                                            
-                                                       Muito obrigado por estar aqui !
+Espero que tenha curtido, me coloco a disposição para contatos, muito obrigado.
