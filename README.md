@@ -3,7 +3,7 @@
 <p>Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situação mundial.</p>
 <p>Link do projeto : https://marlondener.github.io/covid_site/</p>
 
-<h4>Imagens do projeto:</h4>
+                                                   <h4>Imagens do projeto:</h4>
 
 ![image](https://user-images.githubusercontent.com/70349830/119758599-2b34c480-be7d-11eb-8b6d-ebb22f013d29.png)
 
