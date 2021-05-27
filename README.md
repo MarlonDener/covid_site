@@ -1,6 +1,6 @@
 <h1>Informações sobre a pandemia</h1>
 
-Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situação mundial.
+<p>Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situação mundial.</p>
 <br>
 <h3>Clique  <a href="https://marlondener.github.io/covid_site/">aqui</a>, para ver a aplicação</h3>
 <br>
@@ -19,4 +19,4 @@ Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situa�
 </table>
 
 
- Muito obrigado por estar aqui !
+                                                                 Muito obrigado por estar aqui !
