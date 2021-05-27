@@ -1,6 +1,9 @@
 <h1>Informações sobre a pandemia</h1>
 
 Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situação mundial.
+
+![image](https://user-images.githubusercontent.com/70349830/115424495-24a79300-a1d5-11eb-8d90-496f705fdbf6.png)
+
 <h3>Tecnologias utilizadas:</h3>
 <table>
   <tr>
@@ -17,7 +20,5 @@ Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situa�
   
 </table>
 
-
-![image](https://user-images.githubusercontent.com/70349830/115424495-24a79300-a1d5-11eb-8d90-496f705fdbf6.png)
 
  Muito obrigado !
