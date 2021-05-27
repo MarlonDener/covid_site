@@ -1,6 +1,6 @@
 <h2>Informações sobre a pandemia</h2>
 
-<p>Um site informativo sobre a pandemia, desenvolvido com o intuito de reforçar a importância da higiene pessoal e isolamento social, utilizando uma <strong>REST API</strong> de dados sobre a situação em cada País.</p>
+<p>Um site informativo sobre a pandemia, desenvolvido com o intuito de reforçar a importância da higiene pessoal e isolamento social, utilizando uma <strong>REST API</strong> de dados, assim obtendo informações sobre a situação em cada País.</p>
 <p>Link do projeto : https://marlondener.github.io/covid_site/</p> 
 <br>
 <h4>Imagens do projeto:</h4>
