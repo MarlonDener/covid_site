@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/70349830/115424495-24a79300-a1d5-11eb-8d90-496f705fdbf6.png)
 
 
-<h3>Tecnologias utilizadas:</h3>
+<h5>Tecnologias utilizadas:</h5>
 <table>
   <tr>
     <td>HTML</td>
