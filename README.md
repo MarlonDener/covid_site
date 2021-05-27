@@ -2,9 +2,8 @@
 
 <p>Um site informativo sobre a pandemia, utilizando uma API de dados sobre a situação mundial.</p>
 
-<br>
 <h3>Clique  <a href="https://marlondener.github.io/covid_site/">aqui</a>, para ver a aplicação</h3>
-<br>
+
 <h3>Tecnologias utilizadas:</h3>
 <table>
   <tr>
