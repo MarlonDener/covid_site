@@ -12,6 +12,7 @@
 
 <h4>Tecnologias utilizadas:</h4>
 <table>
+  
   <tr>
     <td>HTML</td>
     <td>CSS</td>
